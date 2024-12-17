@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  margin: 1;
+  padding: 1;
+  color: Black;
+}
+
+/* Header CSS */
+header {
+  background: #F5F5F5;
+  color: white;
+  padding: 5;
+  text-align: center;
+  height: 120px
+}
+
+.headerlogo {
+    justify-content: center;
+    margin-top: 25px;
+}
+
+/* Navigation Menu CSS */
+
+  .navigation a {
+    color: White;
+    padding: 4px;
+    font-size: 14px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: #333333;
+  }
+
+.navigation a:hover {
+  background-color: #FF6600;
+  color: #333333;
+}
+/* highlights which page the user is on in the navigation bar */
+.navigation a:active {
+  background-color: #FF6600;
+  color: #FF6600;
+}
+
+/* Index main content CSS */
+.main {
+    background-color:#F5F5F5;
+    text-align: center;
+}
+
+.mainheader {
+    text-align: center;
+    line-height: 0.5;
+    background-color: #FF6600;
+    color: #333333;
+    width: auto;
+    height: 100px;
+    padding-top:1%;
+    margin-bottom: 30px;
+}
+
+.categorypicture {
+    float:left;
+}
+
+/* footer CSS*/
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    
+
+}
+
+.social {
+  width:px;
+  height:100px;
+  float: left;
+  margin: 20px;
+  
+}
+
+.footerlogo {
+    float: right;
+    margin: 20px;
+    
+}
