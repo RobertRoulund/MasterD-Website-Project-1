@@ -16,7 +16,7 @@ header {
 .headerlogo {
     justify-content: center;
     margin-top: 25px;
-    padding: 50px;
+    margin-bottom:25px;
 }
 
 /* Navigation Menu CSS */
