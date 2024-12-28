@@ -76,11 +76,16 @@ header {
 }
 
 .social {
-  max-width: 25%;
-  max-height: 25%;
+  width: auto;
+  height: auto;
   float: left;
   margin: 20px;
   
+}
+
+.social img {
+  width: 25%;
+  height:auto;
 }
 
 .footerlogo {
