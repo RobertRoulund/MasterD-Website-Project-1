@@ -77,8 +77,8 @@ header {
 }
 
 .social {
-  width:px;
-  height:100px;
+  max-width: 64;
+  max-height: 64;
   float: left;
   margin: 20px;
   
