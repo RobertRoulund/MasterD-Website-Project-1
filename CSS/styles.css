@@ -79,9 +79,9 @@ header {
 }
 
 .social img {
-  width: 10%;
+  width: 20%;
   height:auto;
-  display: block;
+  display: inline-block;
   max-width:100%;
 
 }
