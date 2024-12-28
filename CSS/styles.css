@@ -79,7 +79,9 @@ header {
 .social {
   display: flex;
   gap: 20px;
-  width:auto;
+  width: auto;
+  flex-wrap: wrap;
+  max-width: 100%;
   
 }
 
