@@ -61,7 +61,7 @@ header {
     margin-bottom: 30px;
 }
 .p {
-  
+  font-family: sans-serif;
 }
 .categorypicture {
     float:left;
@@ -78,8 +78,8 @@ header {
 .social {
   width: auto;
   height: auto;
-  float: left;
-  margin: 20px;
+  display: flex;
+  gap: 20px;
   
 }
 
