@@ -77,14 +77,14 @@ header {
 
 .social {
   display: flex;
-  gap: 15px;
+  gap: 10px;
   flex-wrap: wrap;
   max-width: 100%;
   
 }
 
 .social img {
-  width: 50%;
+  width: 25%;
   height:auto;
   display: block;
   max-width:100%;
