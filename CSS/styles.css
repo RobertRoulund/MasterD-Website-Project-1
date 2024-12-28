@@ -9,14 +9,9 @@ header {
   background: #F5F5F5;
   color: white;
   margin-bottom:5px;
+  margin-top:10px;
   text-align: center;
   height: 120px
-}
-
-.headerlogo {
-    justify-content: center;
-    margin-top: 25px;
-    margin-bottom:25px;
 }
 
 /* Navigation Menu CSS */
