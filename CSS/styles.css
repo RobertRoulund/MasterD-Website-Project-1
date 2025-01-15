@@ -34,7 +34,7 @@ header {
   color: #333333;
 }
 /* highlights which page the user is on in the navigation bar */
-.navigation a:active {
+.navigation a.active {
   background-color: #FF6600;
   color: #FF6600;
 }
