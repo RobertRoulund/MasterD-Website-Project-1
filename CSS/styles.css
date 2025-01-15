@@ -77,6 +77,15 @@ header {
   margin: 20px;
 }
 
+.button {
+  background-color:#FF6600;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  justify-content: center;
+}
+
 /* footer CSS*/
 .footer {
     margin-top: 40px;
