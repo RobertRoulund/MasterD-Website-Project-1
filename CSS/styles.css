@@ -68,9 +68,10 @@ header {
     max-width: 100%;
     width: 750px;
     max-height: 100%;
-    height: auto;
+    height: 250px;
     padding: 20px;
     margin: auto;
+    overflow: hidden;
 }
 
 .categorypicture img {
