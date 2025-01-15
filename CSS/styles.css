@@ -17,7 +17,7 @@ header {
 /* Navigation Menu CSS */
 
   .navigation a {
-    color: White;
+    color: white;
     padding: 4px;
     font-size: 14px;
     text-align: center;
@@ -29,6 +29,7 @@ header {
     background-color: #333333;
   }
 
+  /* Hover effect*/
 .navigation a:hover {
   background-color: #FF6600;
   color: #333333;
@@ -36,7 +37,7 @@ header {
 /* highlights which page the user is on in the navigation bar */
 .navigation a.active {
   background-color: #FF6600;
-  color: #FF6600;
+  color: #333333;
 }
 
 /* Index main content CSS */
