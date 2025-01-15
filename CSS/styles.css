@@ -83,11 +83,12 @@ header {
   width: 20%;
   height:auto;
   max-width:100%;
+  flex-wrap: wrap;
 
 }
 
 .footerlogo {
     float: right;
     margin: 20px;
-    
+    height: 20px;
 }
