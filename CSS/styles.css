@@ -59,6 +59,10 @@ header {
 }
 .p {
   font-family: sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.5;
+  max-width: 900px;
 }
 .categorypicture {
     display:flex;
