@@ -81,10 +81,11 @@ header {
 }
 
 .social img {
-  width: 40px;
-  height: 40px;
+  width: 10px;
+  height: 10px;
   max-width:100%;
   display: block;
+  margin: 3px;
 
 }
 
