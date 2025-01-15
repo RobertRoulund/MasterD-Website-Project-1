@@ -107,16 +107,20 @@ text-decoration: none;
 
 /*gallery css*/
 
+.clothes {
+
+flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .pants {
 
 }
 .tshirts {
-height: 500px;
-width: 300px;
-flex-wrap: wrap;
-display: flex;
-justify-content: center;
-align-items: center;
+  height: 500px;
+  width: 300px;
 }
 .shoes {
 
