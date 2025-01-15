@@ -113,14 +113,22 @@ flex-wrap: wrap;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 .pants {
 
 }
 .tshirts {
-  height: 500px;
-  width: 300px;
+height: auto;
+width: auto;
+}
+.tshirts img {
+max-width: 500px;
+max-height: 300px;
+width: auto;
+height: auto;
+object-fit: cover;
 }
 .shoes {
 
