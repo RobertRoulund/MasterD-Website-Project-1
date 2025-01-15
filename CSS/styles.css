@@ -74,14 +74,17 @@ header {
 
 .social {
   display:flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  Justify-content: left;
+  align-items: left;
 }
 
 .social img {
-  width: auto;
-  height:auto;
+  width: 40px;
+  height: 40px;
   max-width:100%;
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
 
 }
 
