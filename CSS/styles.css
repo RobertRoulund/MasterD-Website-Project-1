@@ -57,6 +57,11 @@ header {
     margin-bottom: 30px;
     padding-top:15px;
 }
+
+header {
+  color: black;
+}
+
 p {
   font-family: sans-serif;
   text-align: center;
@@ -132,9 +137,16 @@ max-height: 300px;
 width: auto;
 height: auto;
 object-fit: cover;
+margin-bottom: 10px;
 }
 .shoes {
 
+}
+
+.description {
+  display: block;
+  margin-top: 10px;
+  color: black;
 }
 
 /* footer CSS*/
