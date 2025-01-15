@@ -61,12 +61,20 @@ header {
   font-family: sans-serif;
 }
 .categorypicture {
+  display:flex;
+  margin: auto;
     justify-content: center;
     align-items: center;
     max-width: 100%;
     max-height: 100%;
     height: 250px;
     width: 750px;
+    padding: 20px;
+}
+
+.categorypicture img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* footer CSS*/
