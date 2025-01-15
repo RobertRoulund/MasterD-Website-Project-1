@@ -78,7 +78,12 @@ header {
 }
 
 .button {
+text-decoration: none;
+}
+
+.button button {
   background-color:#FF6600;
+  background:#FF6600;
   color: black;
   text-align: center;
   display: inline-block;
@@ -88,9 +93,12 @@ header {
   cursor: pointer;
   box-sizing: border-box;
   margin: 0;
-  text-decoration: none;
+  padding: 10px 20px;
   width: auto;
+  height: auto;
   outline: none;
+  -webkit-appearance: non;
+  -moz-appearance: none;
 }
 
 /* footer CSS*/
