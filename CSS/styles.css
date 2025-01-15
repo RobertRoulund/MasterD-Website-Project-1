@@ -63,7 +63,7 @@ header {
   display: block;
   width: 100%;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 24px;
   font-weight: bold;
 }
@@ -183,7 +183,7 @@ margin-bottom: 10px;
   width: 100%;
   margin-top: 10px;
   color: black;
-  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 /* footer CSS*/
