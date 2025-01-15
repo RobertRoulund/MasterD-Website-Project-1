@@ -80,11 +80,14 @@ header {
 .button {
   background-color:#FF6600;
   color: black;
-  padding: 20px 30px;
   text-align: center;
   display: inline-block;
   justify-content: center;
-  border: none;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+  width: auto;
 }
 
 /* footer CSS*/
