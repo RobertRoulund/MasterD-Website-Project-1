@@ -79,11 +79,14 @@ header {
 
 .button {
   background-color:#FF6600;
+  background-clip: padding-box;
   color: black;
   text-align: center;
   display: inline-block;
   justify-content: center;
   border: 1px solid transparent;
+  border-radius: 2%;
+  cursor: pointer;
   box-sizing: border-box;
   margin: 0;
   text-decoration: none;
