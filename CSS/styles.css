@@ -63,9 +63,10 @@ h1 {
   display: block;
   width: 100%;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 40x;
   font-size: 24px;
   font-weight: bold;
+  padding: 0;
 }
 
 p {
