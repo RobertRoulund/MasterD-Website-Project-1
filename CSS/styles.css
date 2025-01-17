@@ -196,7 +196,7 @@ margin-bottom: 10px;
 
 form {
 width: auto;
-max-width: 100px;
+max-width: 150px;
 margin: 0 auto;
 }
 
@@ -218,6 +218,8 @@ background-color: #FF6600;
 color: #333333;
 border: none;
 cursor: pointer;
+font-weight: bold;
+font-size: 16px;
 }
 
 .social {
