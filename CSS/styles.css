@@ -64,9 +64,10 @@ h1 {
   width: 100%;
   text-align: center;
   margin-top: 40x;
+  margin-bottom: 40px;
   font-size: 24px;
   font-weight: bold;
-  padding: 0;
+  padding: auto;
 }
 
 p {
