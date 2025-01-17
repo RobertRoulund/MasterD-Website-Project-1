@@ -28,21 +28,26 @@
 
       <! -- Data entry -->
       <form>
-        <label for="fullname">Full name:</label><br>
-        <input type="text" id="fullname" name="fullname"><br>
-        <label for="email">email</label><br>
-        <input type="text" id="email" name="email">
-        <label for="telephone">Telephone:</label><br>
-        <input type="text" id="telephone" name="telephone">
+        <label for="fullname">Full name:</label>
+        <input type="text" id="fullname" name="fullname">
+
+        <label for="email">email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="telephone">Telephone:</label>
+        <input type="tel" id="telephone" name="telephone">
+
         <label for="information">Request more information:</label>
-        <textarea id="information" name="information" rows="4" cols="1"
-        <input type="checkbox" id="privacypolicy1" name="privacypolicy1" value="Accept">
-        <label for="privacypolicy1">I accept the terms and privacy policy</label><br>
-        <input type="checkbox" id="privacypolicy2" name="privacypolicy2" value="decline">
-        <label for="privacypolicy2">I do not accept the terms and privacy policy</label><br>
+        <textarea id="information" name="information" rows="4" cols="1"</textarea>
+
+        <input type="checkbox" id="privacypolicy" name="privacypolicy" value="accept" required>
+        <label for="privacypolicy">I accept the terms and privacy policy</label>
+
+        <button type="submit">Submit</button>
+
       </form>
       <! -- Privacy Policy -->
-
+      <p>Your privacy is important to us. Any information provided through our form, such as your name, email address, or other details, will only be used to process your request and provide you with an accurate quote. We will not share your information with third parties without your consent. All data is handled securely and in compliance with applicable privacy regulations. If you have any questions or concerns about how your information is used, feel free to contact us.</p>
       <! -- Checkbox -->
     </main>
 
