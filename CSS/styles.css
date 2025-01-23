@@ -225,6 +225,14 @@ input, textarea {
   box-sizing: border-box;
 }
 
+map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+}
+
 .social {
   display:flex;
   flex-wrap: wrap;
