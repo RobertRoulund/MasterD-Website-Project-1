@@ -225,7 +225,7 @@ input, textarea {
   box-sizing: border-box;
 }
 
-map {
+.map {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,7 +234,7 @@ map {
   
 }
 
-map img {
+.map img {
   width: 100%;
   height: 100%;
   object-fit: cover;
