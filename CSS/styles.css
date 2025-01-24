@@ -14,7 +14,7 @@ header {
   height: 120px
 }
 
-/* Navigation Menu CSS */
+/* Menú de navegación CSS */
 
   .navigation a {
     color: white;
@@ -29,18 +29,18 @@ header {
     background-color: #333333;
   }
 
-  /* Hover effect*/
+  /* Efecto de desplazamiento*/
 .navigation a:hover {
   background-color: #FF6600;
   color: #333333;
 }
-/* highlights which page the user is on in the navigation bar */
+/* Resalta en qué página se encuentra el usuario en la barra de navegación. */
 .navigation a.active {
   background-color: #FF6600;
   color: #333333;
 }
 
-/* Index main content CSS */
+/* Índice de contenidos principales CSS */
 .main {
     background-color:#F5F5F5;
     text-align: center;
@@ -63,7 +63,7 @@ h1 {
   display: block;
   width: 100%;
   text-align: center;
-  margin-top: 60x;
+  margin-top: 60px;
   margin-bottom: 20px;
   font-size: 24px;
   font-weight: bold;
@@ -85,6 +85,7 @@ ul {
   margin: 0;
   padding: 0 20px;
 }
+/* para imágenes en la página de índice */
 .categorypicture {
     display:flex;
     flex-wrap: nowrap;
@@ -103,7 +104,7 @@ ul {
 }
 
 
-/* button css */
+/* botón css */
 button {
   padding: 10px 15px;
   background-color: #FF6600;
@@ -135,7 +136,7 @@ button {
 }
 
 
-/*portfolio gallery css*/
+/*portfolio galleria css*/
 
 .clothes {
 
@@ -164,20 +165,20 @@ button {
 }
 
 .tshirts {
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-height: auto;
-width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  width: auto;
 }
 .tshirts img {
-max-width: 500px;
-max-height: 300px;
-width: auto;
-height: auto;
-object-fit: cover;
-margin-bottom: 10px;
+  max-width: 500px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
 .shoes {
   display: flex;
@@ -189,12 +190,12 @@ margin-bottom: 10px;
 }
 
 .shoes img {
-max-width: 500px;
-max-height: 300px;
-width: auto;
-height: auto;
-object-fit: cover;
-margin-bottom: 10px;
+  max-width: 500px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .description {
@@ -206,16 +207,16 @@ margin-bottom: 10px;
 }
 
 
-
+/* formulario de contacto en contacto */
 form {
-width: auto;
-max-width: 200px;
-margin: 0 auto;
+  width: auto;
+  max-width: 200px;
+  margin: 0 auto;
 }
 
 label {
-display: block;
-margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 input, textarea {
@@ -225,7 +226,7 @@ input, textarea {
   box-sizing: border-box;
 }
 
-/* map contact page */
+/* mapa contacto pagina */
 .map {
   display: flex;
   justify-content: center;
@@ -242,7 +243,7 @@ input, textarea {
   object-fit: cover;
 }
 
-/* footer CSS*/
+/* CSS de pie de página*/
 .footer {
   margin-top: 40px;
   text-align: center;
@@ -251,7 +252,7 @@ input, textarea {
 .social {
   display:flex;
   flex-wrap: wrap;
-  Justify-content: left;
+  justify-content: left;
   align-items: left;
 }
 
