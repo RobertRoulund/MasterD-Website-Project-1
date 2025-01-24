@@ -79,6 +79,12 @@ p {
   line-height: 1.5;
   max-width: 900px;
 }
+
+ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0 20px;
+}
 .categorypicture {
     display:flex;
     flex-wrap: nowrap;
